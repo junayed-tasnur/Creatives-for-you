@@ -9,7 +9,7 @@
     <link
       rel="shortcut icon"
       href="assets/favicon_png-removebg-preview (1).png"
-      type="image/x-icon" 
+      type="image/x-icon"
     />
 
     <!-- tailwind css link -->
@@ -17,29 +17,49 @@
   </head>
   <body>
     <!-- navbar section start-->
-    <header class="py-3 px-5">
+    <header class="container mx-auto py-3 px-4 bg-white">
       <nav class="flex items-center justify-between">
         <div class="">
           <img src="assets/logo 1.png" alt="" class="cursor-pointer" />
         </div>
         <div class="">
-          <div class="hidden md:flex items-center justify-between list-none md:gap-5 md:text-lg">
+          <div
+            class="hidden md:flex items-center justify-between list-none md:gap-5 md:text-lg"
+          >
             <li>
-              <a href="#" class="hover:text-[#F44335]">Home</a>
+              <a
+                href="#"
+                class="hover:text-[#F44335] hover:border hover:border-gray-200 hover:px-4 hover:py-2 hover:rounded-lg transition-all duration-300 hover:scale-105"
+                >Home</a
+              >
             </li>
             <li>
-              <a href="#" class="hover:text-[#F44335]">About Us</a>
+              <a
+                href="#"
+                class="hover:text-[#F44335] hover:border hover:border-gray-200 hover:px-4 hover:py-2 hover:rounded-lg transition-all duration-300 hover:scale-105"
+                >About Us</a
+              >
             </li>
             <li>
-              <a href="#" class="hover:text-[#F44335]">Upskills</a>
+              <a
+                href="#"
+                class="hover:text-[#F44335] hover:border hover:border-gray-200 hover:px-4 hover:py-2 hover:rounded-lg transition-all duration-300 hover:scale-105"
+                >Upskills</a
+              >
             </li>
             <li>
-              <a href="#" class="hover:text-[#F44335] ">Contact Us</a>
+              <a
+                href="#"
+                class="hover:text-[#F44335] hover:border hover:border-gray-200 hover:px-4 hover:py-2 hover:rounded-lg transition-all duration-300 hover:scale-105"
+                >Contact Us</a
+              >
             </li>
           </div>
         </div>
         <div class="flex items-center gap-3">
-          <button class="bg-[#F44335] md:px-5 px-3 rounded-[10px] md:py-2 py-1.5 text-white cursor-pointer hover:scale-105 duration-300 transition-all">
+          <button
+            class="bg-[#F44335] md:px-5 px-3 rounded-[10px] md:py-2 py-1.5 text-white cursor-pointer hover:scale-105 duration-300 transition-all border hover:border-gray-400"
+          >
             Register Interest
           </button>
           <svg
@@ -48,7 +68,7 @@
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="size-6 cursor-pointer"
+            class="size-6 cursor-pointer transition-all duration-300 hover:scale-125"
           >
             <path
               stroke-linecap="round"
@@ -60,5 +80,66 @@
       </nav>
     </header>
     <!-- navbar section end-->
+
+    <!-- hero section start -->
+
+    <div class="container mx-auto p-8">
+      <p class="md:text-lg font-semibold">
+        Discover <span class="text-red-600 font-bold">-</span> Interact
+        <span class="text-red-600 font-bold">-</span> Engage
+      </p>
+
+      <h1
+        class="font-bold md:text-6xl text-4xl md:mt-5 md:leading-snug leading-snug"
+      >
+        Google <br />
+        <span class="text-red-500 border-b-4 border-red-500"> IT Support </span
+        ><br />
+        Certificate
+      </h1>
+
+      <p class="md:text-[18px] md:mt-10 mt-4 space-x-4">
+        This is your path to a career in IT. In this program, you’ll learn
+        in-demand skills with no degree or experience required.
+      </p>
+      <div class="md:flex grid grid-cols-3 md:mt-10 mt-8 md:gap-5">
+        <div class="text-center">
+          <p class="text-2xl text-[#00FF84] font-bold">438</p>
+          <p class="text-[18px]">Videos</p>
+        </div>
+        <div class="text-center">
+          <p class="text-2xl text-[#00FF84] font-bold">151</p>
+          <p class="text-[18px]">Readings</p>
+        </div>
+        <div class="text-center">
+          <p class="text-2xl text-[#00FF84] font-bold">108</p>
+          <p class="text-[18px]">Quizzes</p>
+        </div>
+        <div class="text-center">
+          <p class="text-2xl text-[#00FF84] font-bold">24</p>
+          <p class="text-[18px]">Exercises</p>
+        </div>
+        <div class="text-center">
+          <p class="text-2xl text-[#00FF84] font-bold">4</p>
+          <p class="text-[18px]">Assigments</p>
+        </div>
+      </div>
+      <div class="flex gap-3 mt-8">
+        <button
+          class="bg-[#F44335] px-5 py-2 rounded-lg cursor-pointer text-white transition-all duration-300 hover:scale-105"
+        >
+          Sign Up
+        </button>
+        <button
+          class="bg-white px-5 py-2 rounded-lg cursor-pointer border border-gray-300 hover:text-[#f44335] transition-all duration-300 hover:scale-105"
+        >
+          Learn more
+        </button>
+      </div>
+      <div class="">
+        <img src="assets/2.png" alt="">
+      </div>
+    </div>
+    <!-- hero section end -->
   </body>
 </html>
