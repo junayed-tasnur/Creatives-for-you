@@ -14,10 +14,19 @@
 
     <!-- tailwind css link -->
     <link rel="stylesheet" href="/CSS/main.css" />
+
+    <!-- font awesome incon link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
-  <body>
+  <body class="container mx-auto">
     <!-- navbar section start-->
-    <header class="container mx-auto py-3 px-4 bg-white">
+    <header class="py-3 px-4 bg-white">
       <nav class="flex items-center justify-between">
         <div class="">
           <img src="assets/logo 1.png" alt="" class="cursor-pointer" />
@@ -82,9 +91,7 @@
     <!-- navbar section end-->
 
     <!-- hero section start -->
-    <div
-      class="container mx-auto flex items-start justify-between bg-[#FAFAFA] md:mt-16 mt-5"
-    >
+    <div class="flex items-start justify-between bg-[#FAFAFA] md:mt-16 mt-5">
       <!-- Left Side: Text Content -->
       <div class="max-w-lg md:mx-20 mx-10">
         <h3 class="text-[18px] font-semibold">
@@ -145,7 +152,7 @@
         <img
           src="assets/2.png"
           alt="Student with laptop"
-          class="bg-cover rounded-full "
+          class="bg-cover rounded-full"
         />
 
         <!-- Decorative Circles -->
@@ -166,13 +173,16 @@
     <!-- hero section end -->
 
     <!-- pages section start -->
-
-    <div class="container mx-auto grid md:grid-cols-4 grid-cols-1 justify-center items-center gap-3 bg-white md:py-6 py-4 md:px-20 mt-10">
+    <div
+      class="container mx-auto grid md:grid-cols-4 grid-cols-1 justify-center items-center gap-3 bg-white md:py-6 py-4 md:px-16 mt-10 ml-10"
+    >
       <div class="border-r-2 border-gray-400">
-        <p>Pave your path to career  success by gaining a professional Google
-          certificate with the support of C4U with the support of C4U</p>
+        <p>
+          Pave your path to career success by gaining a professional Google
+          certificate with the support of C4U with the support of C4U
+        </p>
       </div>
-    <div class="border-r-2 border-gray-400">
+      <div class="border-r-2 border-gray-400">
         <img src="assets/Google 3.png" alt="" />
       </div>
       <div class="border-r-2 border-gray-400">
@@ -183,5 +193,150 @@
       </div>
     </div>
     <!-- pages section end -->
+
+    <!-- what you learn section -->
+    <div class="grid md:grid-cols-2 grid-cols-1 mt-10 md:gap-5">
+      <!-- learn section start -->
+      <div
+        class="bg-white md:ml-16 ml-0 font-medium p-6 rounded-[30px] shadow-md w-[104] md:h-[550px] mb-8"
+      >
+        <div class="border-b-2 border-b-red-100">
+          <h3 class="font-semibold text-[24px] mt-10 mb-3">
+            What you will learn
+          </h3>
+        </div>
+        <div class="flex items-center gap-2 mt-4">
+          <i
+            class="fa-solid fa-check bg-[#F9CCC7] rounded-full p-2 text-[#F44335]"
+          ></i>
+          <p class="m-5">
+            Gain skills required to succeed in an entry-level IT job
+          </p>
+        </div>
+        <div class="flex items-center gap-2 mt-4">
+          <i
+            class="fa-solid fa-check bg-[#F9CCC7] rounded-full p-2 text-[#F44335]"
+          ></i>
+          <p class="m-5">
+            Learn to perform day-to-day IT support tasks including computer
+            assembly, wireless networking, installing programs, and customer
+            service
+          </p>
+        </div>
+        <div class="flex items-center gap-2 mt-4">
+          <i
+            class="fa-solid fa-check bg-[#F9CCC7] rounded-full p-2 text-[#F44335]"
+          ></i>
+          <p class="m-5">
+            Learn how to provide end-to-end customer support, ranging from
+            identifying problems to troubleshooting and debugging
+          </p>
+        </div>
+        <div class="flex items-center gap-2 mt-4">
+          <i
+            class="fa-solid fa-check bg-[#F9CCC7] rounded-full p-2 text-[#F44335]"
+          ></i>
+          <p class="m-5">
+            Learn to use systems including Linux, Domain Name Systems,
+            Command-Line Interface, and Binary Code
+          </p>
+        </div>
+      </div>
+
+      <!-- skill section -->
+      <div class="bg-white rounded-[30px] shadow-md md:h-[550px]">
+        <img src="assets/IT_social 5.png" alt="" class="rounded-sm" />
+        <div class="border-b-2 border-b-red-100 font-semibold text-[24px]">
+          <p class="mb-2 ml-5">Skills you will gain</p>
+        </div>
+        <div class="list-none mt-4 p-5">
+          <a href="#" class="skil-link">Debugging</a>
+
+          <a href="#" class="skil-link">Customer Service</a>
+
+          <a href="#" class="skil-link">Customer Support</a>
+
+          <a href="#" class="skil-link">Domain Name System (DNS)</a>
+
+          <a href="#" class="skil-link">Network Model</a>
+
+          <a href="#" class="skil-link">Linux</a>
+
+          <a href="#" class="skil-link">Encryption Algorithms and Techniques</a>
+
+          <a href="#" class="skil-link">Network Protocols</a>
+
+          <a href="#" class="skil-link">Ipv4</a>
+
+          <a href="#" class="skil-link">Troubleshooting</a>
+
+          <a href="#" class="skil-link">Binary Code</a>
+
+          <a href="#" class="skil-link">Cloud Computing</a>
+        </div>
+      </div>
+    </div>
+    <!-- learn section end -->
+
+    <div class="grid md:grid-cols-2 grid-cols-1 mt-14 gap-8 ml-8">
+      <!-- jobs sectionn -->
+      <div class="bg-white rounded-[30px] shadow-md shadow-gray-400 md:h-[300px]">
+        <div class="border-b border-red-100">
+          <h3 class="text-2xl font-semibold mb-5 mt-4 ml-4">
+            Jobs Assocaited with Certificate
+          </h3>
+        </div>
+        <div class="grid grid-cols-2 gap-3 m-5">
+          <div>
+            <div class="flex items-center gap-3 mb-3">
+              <i class="fa-solid fa-arrow-right jobsC"></i>
+              <p>Database administrator</p>
+            </div>
+            <div class="flex items-cente gap-3 mb-3">
+              <i class="fa-solid fa-arrow-right jobsC"></i>
+              <p>Tech support specialist</p>
+            </div>
+            <div class="flex items-center gap-3 mb-3">
+              <i class="fa-solid fa-arrow-right jobsC"></i>
+              <p>IT specialist</p>
+            </div>
+            <div class="flex items-center gap-3 mb-3">
+              <i class="fa-solid fa-arrow-right jobsC"></i>
+              <p>Systems analyst</p>
+            </div>
+            <div class="flex items-center gap-3 mb-3">
+              <i class="fa-solid fa-arrow-right jobsC"></i>
+              <p>Network engineer</p>
+            </div>
+          </div>
+          <div class="">
+            <div class="flex items-center gap-3 mb-3">
+              <i class="fa-solid fa-arrow-right jobsC"></i>
+              <p>Help desk technician</p>
+            </div>
+            <div class="flex items-center gap-3 mb-3">
+              <i class="fa-solid fa-arrow-right jobsC"></i>
+              <p>IT support spcialist</p>
+            </div>
+            <div class="flex items-center gap-3 mb-3">
+              <i class="fa-solid fa-arrow-right jobsC"></i>
+              <p>IT technician</p>
+            </div>
+            <div class="flex items-center gap-3 mb-3">
+              <i class="fa-solid fa-arrow-right jobsC"></i>
+              <p>Computer user specialist</p>
+            </div>
+            <div class="flex items-center gap-3 mb-3">
+              <i class="fa-solid fa-arrow-right jobsC"></i>
+              <p>IT assitant</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- img -->
+      <div class="">
+        <img src="assets/IT Support 6.png" alt="" class="md:h-[300px] bg-cover " />
+      </div>
+    </div>
   </body>
 </html>
