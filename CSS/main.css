@@ -6,7 +6,7 @@ body{
 }
 @layer utilities{
     .skil-link{
-        @apply border border-red-600 px-2 py-1 rounded-full inline-grid m-2 hover:scale-105 transition-all duration-300 hover:text-white hover:bg-[#F44335] hover:shadow-lg;
+        @apply border border-red-600 px-2 py-1 rounded-full inline-grid m-2 hover:scale-105 transition-all duration-300 hover:text-white hover:bg-[#F44335] hover:shadow-lg md:text-lg text-[10px];
     }
 
     .jobsC{
