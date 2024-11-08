@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark" id="htmlTag">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,7 +8,7 @@
     <!-- favicon icon link -->
     <link
       rel="shortcut icon"
-      href="assets/favicon_png-removebg-preview (1).png"
+      href="assets/loog2.png"
       type="image/x-icon"
     />
 
@@ -24,9 +24,9 @@
       referrerpolicy="no-referrer"
     />
   </head>
-  <body class="container mx-auto">
+  <body class="container mx-auto bg-white dark:bg-gray-900">
     <!-- navbar section start-->
-    <header class="py-3 px-4 bg-white">
+    <header class="py-3 px-4 bg-white dark:bg-gray-900 dark:text-white">
       <nav class="flex items-center justify-between">
         <div class="">
           <img src="assets/logo 1.png" alt="" class="cursor-pointer" />
@@ -71,20 +71,22 @@
           >
             Register Interest
           </button>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="size-6 cursor-pointer transition-all duration-300 hover:scale-125"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z"
-            />
-          </svg>
+          <button id="forDarkI">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6 cursor-pointer transition-all duration-300 hover:scale-125"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z"
+              />
+            </svg>
+          </button>
         </div>
       </nav>
     </header>
@@ -92,20 +94,20 @@
 
     <!-- hero section start -->
     <div
-      class="flex items-start justify-between bg-[#FAFAFA] md:mt-16 mt-5 -ml-6"
+      class="flex items-start justify-between bg-[#FAFAFA] md:mt-16 mt-5 -ml-6 dark:bg-gray-900 dark:text-white"
     >
       <!-- Left Side: Text Content -->
-      <div class="max-w-lg md:mx-20 mx-10">
+      <div class="max-w-lg md:mx-20 mx-10 ">
         <h3 class="text-[18px] font-semibold">
           Discover <span class="text-red-500 font-bold">-</span> Interact
           <span class="text-red-500 font-bold">-</span> Engage
         </h3>
-        <h1 class="text-5xl font-bold leading-tight text-gray-900">
+        <h1 class="text-5xl font-bold leading-tight text-gray-900 dark:text-white">
           Google <br />
           <span class="text-red-500 border-red-500 border-b-2">IT Support</span>
           <br />Certificate
         </h1>
-        <p class="flex items-center mt-4 text-gray-800">
+        <p class="flex items-center mt-4 text-gray-800 dark:text-white">
           This is your path to a career in IT. In this program,<br />
           you’ll learn in-demand skills with no degree or experience required.
         </p>
@@ -114,23 +116,23 @@
         <div class="flex mt-6 space-x-8 text-green-500">
           <div class="text-center">
             <p class="md:text-3xl text-sm font-bold">438</p>
-            <p class="text-gray-700 text-sm">Videos</p>
+            <p class="text-gray-700 text-sm dark:text-white">Videos</p>
           </div>
           <div class="text-center">
             <p class="md:text-3xl text-sm font-bold">151</p>
-            <p class="text-gray-700 text-sm">Readings</p>
+            <p class="text-gray-700 text-sm dark:text-white">Readings</p>
           </div>
           <div class="text-center">
             <p class="md:text-3xl text-sm font-bold">108</p>
-            <p class="text-gray-700 text-sm">Quizzes</p>
+            <p class="text-gray-700 text-sm dark:text-white">Quizzes</p>
           </div>
           <div class="text-center">
             <p class="md:text-3xl text-sm font-bold">24</p>
-            <p class="text-gray-700 text-sm">Exercises</p>
+            <p class="text-gray-700 text-sm dark:text-white">Exercises</p>
           </div>
           <div class="text-center">
             <p class="md:text-3xl text-sm font-bold">4</p>
-            <p class="text-gray-700 text-sm">Assignments</p>
+            <p class="text-gray-700 text-sm dark:text-white">Assignments</p>
           </div>
         </div>
 
@@ -142,7 +144,7 @@
             Sign up
           </button>
           <button
-            class="md:px-6 px-3 py-2 font-semibold bg-white border border-gray-200 bg-white-200 rounded-md hover:text-[#f44335] transition-all duration-300 hover:scale-105"
+            class="md:px-6 px-3 py-2 font-semibold bg-white border border-gray-200 bg-white-200 rounded-md hover:text-[#f44335] transition-all duration-300 hover:scale-105 dark:bg-gray-900"
           >
             Learn more
           </button>
@@ -150,7 +152,7 @@
       </div>
 
       <!-- Right Side: Image with Decorations -->
-      <div class="md:relative hidden md:flex md:items-baseline mr-40 ">
+      <div class="md:relative hidden md:flex md:items-baseline mr-40">
         <img
           src="assets/2.png"
           alt="Student with laptop"
@@ -176,9 +178,9 @@
 
     <!-- pages section start -->
     <div
-      class=" grid md:grid-cols-4 grid-cols-1 justify-center items-center gap-3 bg-white md:py-6 py-4 md:px-16 mt-10 ml-3"
+      class="grid md:grid-cols-4 grid-cols-1 justify-center items-center gap-3 bg-white md:py-6 py-4 md:px-16 mt-10 ml-3 dark:bg-gray-900 dark:text-white"
     >
-      <div class="border-r-2 border-gray-400">
+      <div class="border-r-2 border-gray-400 ">
         <p>
           Pave your path to career success by gaining a professional Google
           certificate with the support of C4U with the support of C4U
@@ -197,10 +199,10 @@
     <!-- pages section end -->
 
     <!-- what you learn section -->
-    <div class="grid md:grid-cols-2 grid-cols-1 mt-10 md:gap-5">
+    <div class="grid md:grid-cols-2 grid-cols-1 mt-10 md:gap-5 ">
       <!-- learn section start -->
       <div
-        class="bg-white md:ml-16 ml-0 font-medium p-6 rounded-[30px] shadow-md w-[104] md:h-[550px] mb-8"
+        class="bg-white md:ml-16 ml-0 font-medium p-6 rounded-[30px] shadow-md w-[104] md:h-[550px] mb-8 dark:bg-gray-900 dark:text-white"
       >
         <div class="border-b-2 border-b-red-100">
           <h3 class="font-semibold text-[24px] mt-10 mb-3">
@@ -246,7 +248,7 @@
       </div>
 
       <!-- skill section -->
-      <div class="bg-white rounded-[30px] shadow-md md:h-[550px]">
+      <div class="bg-white rounded-[30px] shadow-md md:h-[550px] dark:bg-gray-900 dark:text-white">
         <img src="assets/IT_social 5.png" alt="" class="rounded-sm" />
         <div class="border-b-2 border-b-red-100 font-semibold text-[24px]">
           <p class="mb-2 ml-5">Skills you will gain</p>
@@ -284,7 +286,7 @@
       <!-- Jobs Assocaited with Certificate
  sectionn -->
       <div
-        class="bg-white rounded-[30px] shadow-md shadow-gray-400 md:h-[300px] mr-8"
+        class="bg-white rounded-[30px] shadow-md shadow-gray-400 md:h-[300px] mr-8 dark:bg-gray-900 dark:text-white"
       >
         <div class="border-b border-red-100">
           <h3 class="text-2xl font-semibold mb-5 mt-4 ml-4">
@@ -340,17 +342,22 @@
       </div>
       <!-- img -->
       <div class="mr-6">
-        <img src="assets/IT Support 6.png" alt="" class="md:h-[300px] md:w-[800px] md:object-fill"  />
+        <img
+          src="assets/IT Support 6.png"
+          alt=""
+          class="md:h-[300px] md:w-[800px] md:object-fill"
+        />
       </div>
     </div>
 
     <!-- professional 5 course section start -->
-    <div class="grid relative bg-white mt-10">
+    <div class="grid relative bg-white mt-10 dark:bg-gray-900 dark:text-white">
       <div class="ml-5 mt-10 relative z-40">
-        <h1 class="text-4xl mb-7 ">
-          There are 5 Courses<br /> in this Professional Certificate
+        <h1 class="text-4xl mb-7">
+          There are 5 Courses<br />
+          in this Professional Certificate
         </h1>
-        <div class=" flex justify-between border-b border-red-200 mb-4">
+        <div class="flex justify-between border-b border-red-200 mb-4">
           <button class="skil-link">Courses 1</button>
           <button class="skil-link">Courses 2</button>
           <button class="skil-link">Courses 3</button>
@@ -358,9 +365,12 @@
           <button class="skil-link">Courses 5</button>
         </div>
       </div>
-      <div class="absolute h-36 w-[180px] ">
-        <img src="assets/Group 7.png" alt=""
-        class="relative md:inset-x-[1240px] inset-x-[250px] ">
+      <div class="absolute h-36 w-[180px]">
+        <img
+          src="assets/Group 7.png"
+          alt=""
+          class="relative md:inset-x-[1240px] inset-x-[250px]"
+        />
       </div>
     </div>
     <!-- professional section end -->
@@ -368,7 +378,7 @@
     <!--5 course detailes start -->
 
     <!-- 1 -->
-    <div class="min-h-screen  flex items-center justify-center  relative">
+    <div class="min-h-screen flex items-center justify-center relative">
       <div
         class="bg-white rounded-lg shadow-lg overflow-hidden max-w-6xl w-full flex flex-col md:flex-row md:w-[1299px] md:h-[850px]"
       >
@@ -403,13 +413,13 @@
         </div>
 
         <!-- Main Content -->
-        <div class="p-8 md:w-2/3">
+        <div class="p-8 md:w-2/3 dark:bg-gray-900">
           <!-- About the Course -->
           <div class="mb-6">
-            <h3 class="text-[#F9CCC7] font-semibold text-lg mb-2">
+            <h3 class="text-[#F9CCC7] font-semibold text-lg mb-2 dark:text-white">
               About this course
             </h3>
-            <p class="text-gray-700 text-sm leading-relaxed">
+            <p class="text-gray-700 text-sm leading-relaxed dark:text-white" >
               This course is the first of a series that aims to prepare you for
               a role as an entry-level IT Support Specialist. In this course,
               you’ll be introduced to the world of Information Technology, or
@@ -423,11 +433,11 @@
 
           <!-- What you will learn -->
           <div class="mb-6">
-            <h3 class="text-[#F9CCC7] font-semibold text-lg mb-2">
+            <h3 class="text-[#F9CCC7] font-semibold text-lg mb-2 dark:text-white">
               What you will learn
             </h3>
-            <ul class="space-y-2 text-gray-700 text-sm">
-              <div class="flex items-center gap-3">
+            <ul class="space-y-2 text-gray-700 text-sm dark:text-white">
+              <div class="flex items-center gap-3 ">
                 <i
                   class="fa-solid fa-check rounded-full bg-[#F9CCC7] p-2 text-[#F44335]"
                 ></i>
@@ -476,25 +486,25 @@
           </div>
 
           <!-- Skills You Will Gain -->
-          <div class="mb-6">
-            <h3 class="text-[#F9CCC7] font-semibold text-lg mb-2">
+          <div class="mb-6 ">
+            <h3 class="text-[#F9CCC7] font-semibold text-lg mb-2 dark:text-white">
               Skills you will gain
             </h3>
-            <div class="flex flex-wrap gap-2">
+            <div class="flex flex-wrap gap-2 ">
               <span
-                class="px-3 py-1 border border-[#F44335] text-[#181818] text-xs rounded-full"
+                class="px-3 py-1 border border-[#F44335] text-[#181818] text-xs rounded-full dark:text-white"
                 >Binary Code</span
               >
               <span
-                class="px-3 py-1 border border-[#F44335] text-[#181818] text-xs rounded-full"
+                class="px-3 py-1 border border-[#F44335] text-[#181818] text-xs rounded-full dark:text-white"
                 >Troubleshooting</span
               >
               <span
-                class="px-3 py-1 border border-[#F44335] text-[#181818] text-xs rounded-full"
+                class="px-3 py-1 border border-[#F44335] text-[#181818] text-xs rounded-full dark:text-white"
                 >Customer Support</span
               >
               <span
-                class="px-3 py-1 border border-[#F44335] text-[#181818] text-xs rounded-full"
+                class="px-3 py-1 border border-[#F44335] text-[#181818] text-xs rounded-full dark:text-white"
               >
                 Linux</span
               >
@@ -502,12 +512,12 @@
           </div>
 
           <!-- Information Section -->
-          <div>
-            <h3 class="text-[#F9CCC7] font-semibold text-lg mb-2">
+          <div class="">
+            <h3 class="text-[#F9CCC7] font-semibold text-lg mb-2 dark:text-white ">
               Information
             </h3>
-            <ul class="list-disc list-inside text-gray-700 text-sm space-y-1">
-              <li class="marker:text-[#F9CCC7]">Flexible deadlines</li>
+            <ul class="list-disc list-inside text-gray-700 text-sm space-y-1 dark:text-white">
+              <li class="marker:text-[#F9CCC7] ">Flexible deadlines</li>
               <li class="marker:text-[#F9CCC7]">Shareable Certificate</li>
               <li class="marker:text-[#F9CCC7]">100% online</li>
               <li class="marker:text-[#F9CCC7]">Beginner Level</li>
@@ -520,6 +530,10 @@
       </div>
     </div>
 
+    <!-- vector one -->
+    <div class="w-[300px] ml-12 -mt-6 -mb-6 md:w-[500px] md:ml-[600px]">
+      <img src="assets/Connector Vector5.png" alt="" />
+    </div>
     <!-- 2 -->
     <div class="min-h-8 p-6 flex items-center justify-center">
       <div
@@ -556,13 +570,13 @@
         </div>
 
         <!-- Main Content -->
-        <div class="p-8 md:w-2/3">
+        <div class="p-8 md:w-2/3 dark:bg-gray-900">
           <!-- About the Course -->
-          <div class="mb-6">
-            <h3 class="text-[#F9CCC7] font-semibold text-lg mb-2">
+          <div class="mb-6 ">
+            <h3 class="text-[#F9CCC7] font-semibold text-lg mb-2 dark:text-white">
               About this course
             </h3>
-            <p class="text-gray-700 text-sm leading-relaxed">
+            <p class="text-gray-700 text-sm leading-relaxed dark:text-white">
               This course is designed to provide a full overview of computer
               networking. We’ll cover everything from the fundamentals of modern
               networking technologies and protocols to an overview of the cloud
@@ -572,10 +586,10 @@
 
           <!-- What you will learn -->
           <div class="mb-6">
-            <h3 class="text-[#F9CCC7] font-semibold text-lg mb-2">
+            <h3 class="text-[#F9CCC7] font-semibold text-lg mb-2 dark:text-white">
               What you will learn
             </h3>
-            <ul class="space-y-2 text-gray-700 text-sm">
+            <ul class="space-y-2 text-gray-700 text-sm dark:text-white">
               <div class="flex items-center gap-3">
                 <i
                   class="fa-solid fa-check rounded-full bg-[#F9CCC7] p-2 text-[#F44335]"
@@ -621,25 +635,25 @@
           </div>
 
           <!-- Skills You Will Gain -->
-          <div class="mb-6">
-            <h3 class="text-[#F9CCC7] font-semibold text-lg mb-2">
+          <div class="mb-6 ">
+            <h3 class="text-[#F9CCC7] font-semibold text-lg mb-2 dark:text-white">
               Skills you will gain
             </h3>
-            <div class="flex flex-wrap gap-2">
+            <div class="flex flex-wrap gap-2 ">
               <span
-                class="px-3 py-1 border border-[#F44335] text-[#181818] text-xs rounded-full"
+                class="px-3 py-1 border border-[#F44335] text-[#181818] text-xs rounded-full dark:text-white"
                 >Domain Name System (DNS)</span
               >
               <span
-                class="px-3 py-1 border border-[#F44335] text-[#181818] text-xs rounded-full"
+                class="px-3 py-1 border border-[#F44335] text-[#181818] text-xs rounded-full dark:text-white"
                 >Ipv4</span
               >
               <span
-                class="px-3 py-1 border border-[#F44335] text-[#181818] text-xs rounded-full"
+                class="px-3 py-1 border border-[#F44335] text-[#181818] text-xs rounded-full dark:text-white"
                 >Network Model</span
               >
               <span
-                class="px-3 py-1 border border-[#F44335] text-[#181818] text-xs rounded-full"
+                class="px-3 py-1 border border-[#F44335] text-[#181818] text-xs rounded-full dark:text-white"
                 >Troubleshooting</span
               >
             </div>
@@ -647,10 +661,10 @@
 
           <!-- Information Section -->
           <div>
-            <h3 class="text-[#F9CCC7] font-semibold text-lg mb-2">
+            <h3 class="text-[#F9CCC7] font-semibold text-lg mb-2 dark:text-white">
               Information
             </h3>
-            <ul class="list-disc list-inside text-gray-700 text-sm space-y-1">
+            <ul class="list-disc list-inside text-gray-700 text-sm space-y-1 dark:text-white">
               <li class="marker:text-[#F9CCC7]">Flexible deadlines</li>
               <li class="marker:text-[#F9CCC7]">Shareable Certificate</li>
               <li class="marker:text-[#F9CCC7]">100% online</li>
@@ -662,6 +676,11 @@
           </div>
         </div>
       </div>
+    </div>
+
+    <!-- verctor two -->
+    <div class="w-[300px] ml-12 -mt-6 -mb-6 md:w-[500px] md:ml-[600px]">
+      <img src="assets/Connector Vector4.png" alt="" />
     </div>
 
     <!-- 3 -->
@@ -701,13 +720,13 @@
         </div>
 
         <!-- Main Content -->
-        <div class="p-8 md:w-2/3">
+        <div class="p-8 md:w-2/3 dark:bg-gray-900">
           <!-- About the Course -->
-          <div class="mb-6">
-            <h3 class="text-[#F9CCC7] font-semibold text-lg mb-2">
+          <div class="mb-6 ">
+            <h3 class="text-[#F9CCC7] font-semibold text-lg mb-2 dark:text-white">
               About this course
             </h3>
-            <p class="text-gray-700 text-sm leading-relaxed">
+            <p class="text-gray-700 text-sm leading-relaxed dark:text-white">
               In this course -- through a combination of video lectures,
               demonstrations, and hands-on practice -- you’ll learn about the
               main components of an operating system and how to perform critical
@@ -717,10 +736,10 @@
 
           <!-- What you will learn -->
           <div class="mb-6">
-            <h3 class="text-[#F9CCC7] font-semibold text-lg mb-2">
+            <h3 class="text-[#F9CCC7] font-semibold text-lg mb-2 dark:text-white">
               What you will learn
             </h3>
-            <ul class="space-y-2 text-gray-700 text-sm">
+            <ul class="space-y-2 text-gray-700 text-sm dark:text-white">
               <div class="flex items-center gap-3">
                 <i
                   class="fa-solid fa-check rounded-full bg-[#F9CCC7] p-2 text-[#F44335]"
@@ -775,25 +794,25 @@
           </div>
 
           <!-- Skills You Will Gain -->
-          <div class="mb-6">
-            <h3 class="text-[#F9CCC7] font-semibold text-lg mb-2">
+          <div class="mb-6 ">
+            <h3 class="text-[#F9CCC7] font-semibold text-lg mb-2 dark:text-white">
               Skills you will gain
             </h3>
             <div class="flex flex-wrap gap-2">
               <span
-                class="px-3 py-1 border border-[#F44335] text-[#181818] text-xs rounded-full"
+                class="px-3 py-1 border border-[#F44335] text-[#181818] text-xs rounded-full dark:text-white"
                 >Powershell</span
               >
               <span
-                class="px-3 py-1 border border-[#F44335] text-[#181818] text-xs rounded-full"
+                class="px-3 py-1 border border-[#F44335] text-[#181818] text-xs rounded-full dark:text-white"
                 >Linux File Systems</span
               >
               <span
-                class="px-3 py-1 border border-[#F44335] text-[#181818] text-xs rounded-full"
+                class="px-3 py-1 border border-[#F44335] text-[#181818] text-xs rounded-full dark:text-white"
                 >Command-Line Interface</span
               >
               <span
-                class="px-3 py-1 border border-[#F44335] text-[#181818] text-xs rounded-full"
+                class="px-3 py-1 border border-[#F44335] text-[#181818] text-xs rounded-full dark:text-white"
               >
                 Linux</span
               >
@@ -802,10 +821,10 @@
 
           <!-- Information Section -->
           <div>
-            <h3 class="text-[#F9CCC7] font-semibold text-lg mb-2">
+            <h3 class="text-[#F9CCC7] font-semibold text-lg mb-2 dark:text-white">
               Information
             </h3>
-            <ul class="list-disc list-inside text-gray-700 text-sm space-y-1">
+            <ul class="list-disc list-inside text-gray-700 text-sm space-y-1 dark:text-white">
               <li class="marker:text-[#F9CCC7]">Flexible deadlines</li>
               <li class="marker:text-[#F9CCC7]">Shareable Certificate</li>
               <li class="marker:text-[#F9CCC7]">100% online</li>
@@ -820,11 +839,11 @@
     </div>
 
     <div class="w-[300px] ml-12 -mt-6 -mb-6 md:w-[500px] md:ml-[600px]">
-      <img src="assets/Connector Vector 8.png" alt="" class="relative">
+      <img src="assets/Connector Vector2.png" alt="" class="relative" />
     </div>
-    <!-- 4 -->
+    <!-- course 4 -->
 
-    <div class="min-h-8 p-6 flex items-center justify-center ">
+    <div class="min-h-8 p-6 flex items-center justify-center">
       <div
         class="bg-white rounded-lg shadow-lg overflow-hidden max-w-6xl w-full flex flex-col md:flex-row"
       >
@@ -859,13 +878,13 @@
         </div>
 
         <!-- Main Content -->
-        <div class="p-8 md:w-2/3">
+        <div class="p-8 md:w-2/3 dark:bg-gray-900">
           <!-- About the Course -->
           <div class="mb-6">
-            <h3 class="text-[#F9CCC7] font-semibold text-lg mb-2">
+            <h3 class="text-[#F9CCC7] font-semibold text-lg mb-2 dark:text-white">
               About this course
             </h3>
-            <p class="text-gray-700 text-sm leading-relaxed">
+            <p class="text-gray-700 text-sm leading-relaxed dark:text-white">
               This course will transition you from working on a single computer
               to an entire fleet. Systems administration is the field of IT
               that’s responsible for maintaining reliable computers systems in a
@@ -883,10 +902,10 @@
 
           <!-- What you will learn -->
           <div class="mb-6">
-            <h3 class="text-[#F9CCC7] font-semibold text-lg mb-2">
+            <h3 class="text-[#F9CCC7] font-semibold text-lg mb-2 dark:text-white">
               What you will learn
             </h3>
-            <ul class="space-y-2 text-gray-700 text-sm">
+            <ul class="space-y-2 text-gray-700 text-sm dark:text-white">
               <div class="flex items-center gap-3">
                 <i
                   class="fa-solid fa-check rounded-full bg-[#F9CCC7] p-2 text-[#F44335]"
@@ -953,20 +972,20 @@
 
           <!-- Skills You Will Gain -->
           <div class="mb-6">
-            <h3 class="text-[#F9CCC7] font-semibold text-lg mb-2">
+            <h3 class="text-[#F9CCC7] font-semibold text-lg mb-2 dark:text-white">
               Skills you will gain
             </h3>
             <div class="flex flex-wrap gap-2">
               <span
-                class="px-3 py-1 border border-[#F44335] text-[#181818] text-xs rounded-full"
+                class="px-3 py-1 border border-[#F44335] text-[#181818] text-xs rounded-full dark:text-white"
                 >Directory Service</span
               >
               <span
-                class="px-3 py-1 border border-[#F44335] text-[#181818] text-xs rounded-full"
+                class="px-3 py-1 border border-[#F44335] text-[#181818] text-xs rounded-full dark:text-white"
                 >Lightweight Directory Access Protocol (LDAP)</span
               >
               <span
-                class="px-3 py-1 border border-[#F44335] text-[#181818] text-xs rounded-full"
+                class="px-3 py-1 border border-[#F44335] text-[#181818] text-xs rounded-full dark:text-white"
                 >Backup</span
               >
             </div>
@@ -974,10 +993,10 @@
 
           <!-- Information Section -->
           <div>
-            <h3 class="text-[#F9CCC7] font-semibold text-lg mb-2">
+            <h3 class="text-[#F9CCC7] font-semibold text-lg mb-2 dark:text-white">
               Information
             </h3>
-            <ul class="list-disc list-inside text-gray-700 text-sm space-y-1">
+            <ul class="list-disc list-inside text-gray-700 text-sm space-y-1 dark:text-white">
               <li class="marker:text-[#F9CCC7]">Flexible deadlines</li>
               <li class="marker:text-[#F9CCC7]">Shareable Certificate</li>
               <li class="marker:text-[#F9CCC7]">100% online</li>
@@ -991,10 +1010,11 @@
       </div>
     </div>
 
+    <!-- vector section -->
     <div class="w-[300px] ml-12 -mt-6 -mb-6 md:w-[500px] md:ml-[600px]">
-      <img src="assets/Connector Vector 8.png" alt="" class="relative">
+      <img src="assets/Connector Vector 8.png" alt="" class="relative" />
     </div>
-    <!-- 5 -->
+    <!--course 5 -->
 
     <div class="min-h-8 p-6 flex items-center justify-center">
       <div
@@ -1031,13 +1051,13 @@
         </div>
 
         <!-- Main Content -->
-        <div class="p-8 md:w-2/3">
+        <div class="p-8 md:w-2/3 dark:bg-gray-900">
           <!-- About the Course -->
           <div class="mb-6">
-            <h3 class="text-[#F9CCC7] font-semibold text-lg mb-2">
+            <h3 class="text-[#F9CCC7] font-semibold text-lg mb-2 dark:text-white">
               About this course
             </h3>
-            <p class="text-gray-700 text-sm leading-relaxed">
+            <p class="text-gray-700 text-sm leading-relaxed dark:text-white">
               This course covers a wide variety of IT security concepts, tools,
               and best practices. It introduces threats and attacks and the many
               ways they can show up. We’ll give you some background of
@@ -1054,10 +1074,10 @@
 
           <!-- What you will learn -->
           <div class="mb-6">
-            <h3 class="text-[#F9CCC7] font-semibold text-lg mb-2">
+            <h3 class="text-[#F9CCC7] font-semibold text-lg mb-2 dark:text-white">
               What you will learn
             </h3>
-            <ul class="space-y-2 text-gray-700 text-sm">
+            <ul class="space-y-2 text-gray-700 text-sm dark:text-white">
               <div class="flex items-center gap-3">
                 <i
                   class="fa-solid fa-check rounded-full bg-[#F9CCC7] p-2 text-[#F44335]"
@@ -1108,24 +1128,24 @@
 
           <!-- Skills You Will Gain -->
           <div class="mb-6">
-            <h3 class="text-[#F9CCC7] font-semibold text-lg mb-2">
+            <h3 class="text-[#F9CCC7] font-semibold text-lg mb-2 dark:text-white">
               Skills you will gain
             </h3>
             <div class="flex flex-wrap gap-2">
               <span
-                class="px-3 py-1 border border-[#F44335] text-[#181818] text-xs rounded-full"
+                class="px-3 py-1 border border-[#F44335] text-[#181818] text-xs rounded-full dark:text-white"
                 >Cybersecurity</span
               >
               <span
-                class="px-3 py-1 border border-[#F44335] text-[#181818] text-xs rounded-full"
+                class="px-3 py-1 border border-[#F44335] text-[#181818] text-xs rounded-full dark:text-white"
                 >Wireless Security</span
               >
               <span
-                class="px-3 py-1 border border-[#F44335] text-[#181818] text-xs rounded-full"
+                class="px-3 py-1 border border-[#F44335] text-[#181818] text-xs rounded-full dark:text-white"
                 >Customer Support</span
               >
               <span
-                class="px-3 py-1 border border-[#F44335] text-[#181818] text-xs rounded-full"
+                class="px-3 py-1 border border-[#F44335] text-[#181818] text-xs rounded-full dark:text-white"
                 >Network Security</span
               >
             </div>
@@ -1133,10 +1153,10 @@
 
           <!-- Information Section -->
           <div>
-            <h3 class="text-[#F9CCC7] font-semibold text-lg mb-2">
+            <h3 class="text-[#F9CCC7] font-semibold text-lg mb-2 dark:text-white">
               Information
             </h3>
-            <ul class="list-disc list-inside text-gray-700 text-sm space-y-1">
+            <ul class="list-disc list-inside text-gray-700 text-sm space-y-1 dark:text-white">
               <li class="marker:text-[#F9CCC7]">Flexible deadlines</li>
               <li class="marker:text-[#F9CCC7]">Shareable Certificate</li>
               <li class="marker:text-[#F9CCC7]">100% online</li>
@@ -1156,22 +1176,22 @@
     <div class="relative mt-10">
       <div
         class="relative h-[557px] bg-no-repeat md:w-full"
-        style="background-image: url('assets/bgimage.png'); width: 100%"
+        style="background-image: url('assets/bgimage.png'); "
       >
         <div
-          class="md:w-[590px] md:h-[435px] w-[400px] h-[300px] absolute bg-white md:ml-[124px] mt-[60px] rounded-lg ml-5 items-center"
+          class="md:w-[590px] md:h-[435px] w-[400px] h-[300px] absolute bg-white md:ml-[124px] mt-[60px] rounded-lg ml-5 items-center dark:bg-gray-900 dark:text-white"
         >
           <i
-            class="fa-solid fa-quote-left ml-10 mt-10 text-[#F9CCC7] font-bold"
+            class="fa-solid fa-quote-left ml-10 mt-10 text-[#F9CCC7] font-bold dark:text-white"
           ></i>
           <p
-            class="md:py-[60px] mx-10 md:-mt-16 mb-8 font-bold md:text-[26px] text-[#072125]"
+            class="md:py-[60px] mx-10 md:-mt-16 mb-8 font-bold md:text-[26px] text-[#072125] dark:text-white"
           >
             I worked in retail and needed to make a change. The certificate is
             really designed for you to go at your own pace. This is something
             that anybody can do
           </p>
-          <p class="md:py-[10px] mx-10 md:-my-16 text-[#F9CCC7] font-bold">
+          <p class="md:py-[10px] mx-10 md:-my-16 text-[#F9CCC7] font-bold dark:text-white">
             Daniel, IT Support Specialist at Central Community College and
             Google IT Support Certificate graduate
           </p>
@@ -1182,9 +1202,9 @@
 
     <!-- footer section start -->
 
-    <footer class=" py-10 ">
+    <footer class="py-10">
       <div
-        class="px-6 lg:px-16 grid grid-cols-2 md:grid-cols-5 gap-8 text-gray-700"
+        class="px-6 lg:px-16 grid grid-cols-2 md:grid-cols-5 gap-8 text-gray-700 dark:text-white"
       >
         <!-- Logo and Address -->
         <div class="space-y-4">
@@ -1201,7 +1221,7 @@
 
         <!-- Navigation Links -->
         <div>
-          <h3 class="font-semibold text-gray-900 mb-4">Home</h3>
+          <h3 class="font-semibold text-gray-900 mb-4 dark:text-white">Home</h3>
           <ul class="space-y-2 text-sm">
             <li><a href="#" class="hover:text-gray-900">Collaborations</a></li>
             <li><a href="#" class="hover:text-gray-900">Statistics</a></li>
@@ -1210,8 +1230,8 @@
           </ul>
         </div>
 
-        <div>
-          <h3 class="font-semibold text-gray-900 mb-4">About Us</h3>
+        <div class="">
+          <h3 class="font-semibold text-gray-900 mb-4 dark:text-white">About Us</h3>
           <ul class="space-y-2 text-sm">
             <li><a href="#" class="hover:text-gray-900">Who We Are</a></li>
             <li>
@@ -1223,7 +1243,7 @@
         </div>
 
         <div>
-          <h3 class="font-semibold text-gray-900 mb-4">Upskill</h3>
+          <h3 class="font-semibold text-gray-900 mb-4 dark:text-white">Upskill</h3>
           <ul class="space-y-2 text-sm">
             <li><a href="#" class="hover:text-gray-900">IT Support</a></li>
             <li>
@@ -1235,7 +1255,7 @@
         </div>
 
         <div>
-          <h3 class="font-semibold text-gray-900 mb-4">Contact Us</h3>
+          <h3 class="font-semibold text-gray-900 mb-4 dark:text-white">Contact Us</h3>
           <ul class="space-y-2 text-sm">
             <li><a href="#" class="hover:text-gray-900">Your Message</a></li>
             <li><a href="#" class="hover:text-gray-900">Email</a></li>
@@ -1247,10 +1267,12 @@
 
       <div class="border-b"></div>
       <!-- Copyright -->
-      <div class="mt-10 text-center text-sm text-gray-500">
+      <div class="mt-10 text-center text-sm text-gray-500 dark:text-white">
         Copyright 2022 Creatives For You LTD
       </div>
     </footer>
     <!-- footer section end -->
+
+    <script src="script.js"></script>
   </body>
 </html>

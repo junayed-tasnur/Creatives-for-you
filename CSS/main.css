@@ -2,7 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 body{
-    background-color: #fafafa;
+    
+    
 }
 @layer utilities{
     .skil-link{
@@ -12,4 +13,5 @@ body{
     .jobsC{
         @apply bg-[#F9CCC7] rounded-full p-1
     }
+    
 }
